@@ -1,0 +1,22 @@
+{
+  "name": "yb-server",
+  "version": "1.0.0",
+  "description": "YoorBell server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoorBell/yb-server.git"
+  },
+  "author": "Andrew Portner",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/YoorBell/yb-server/issues"
+  },
+  "homepage": "https://github.com/YoorBell/yb-server#readme",
+  "dependencies": {
+    "koa": "^1.2.0"
+  }
+}
