@@ -2,7 +2,15 @@
     "modules": [
         {
             "name": "web",
-            "port": 8000
+            "config": {
+                "port": 8000
+            }
+        },
+        {
+            "name": "db",
+            "config": {
+                "file": "db"
+            }
         }
     ]
 }

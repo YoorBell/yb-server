@@ -22,7 +22,7 @@ class Modules {
     initModule( config ) {
         var name = config.name;
         var moduleClass = require( './' + name );
-        var moduleObj = new moduleClass( this, config );
+        var moduleObj = new moduleClass( this, config.config );
 
         this.modules.set( name, moduleObj );
     }
