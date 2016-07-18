@@ -9,7 +9,7 @@
         {
             "name": "db",
             "config": {
-                "file": "db"
+                "db": "db/yb.pouchdb"
             }
         }
     ]

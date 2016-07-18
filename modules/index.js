@@ -26,6 +26,10 @@ class Modules {
 
         this.modules.set( name, moduleObj );
     }
+
+    get( name ) {
+        return this.modules.get( name );
+    }
 }
 
 module.exports = new Modules();

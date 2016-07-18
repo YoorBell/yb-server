@@ -16,4 +16,8 @@ module.exports = class DBModule {
 
         this.db = new PouchDB( this.config.db );
     }
+    
+
+    init() {
+    }
 }
